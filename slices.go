@@ -20,7 +20,13 @@ func main() {
 
   for i, v := range secretGarden {
     fmt.Println(i, v)
+    
 
+    manga := []string{"NG Life", "Firefly Wedding", "Skip and Loafer", "なら恋 "}
+    for _,v := range manga{
+        fmt.Println(v)
+        
+    }
 
     }
   }
